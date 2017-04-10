@@ -1,0 +1,1037 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2015-06-19 09:49:05
+ * @version $Id$
+ */
+#outermain1 {
+  width: 26.666666666666668rem;
+  height: 42rem;
+  margin: 0 auto;
+  background-color: #000;
+  background: url("../images/background.jpg") 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+#outermain1 .shahuan {
+  width: 9rem;
+  margin: 0 auto;
+  position: relative;
+}
+#outermain1 .shahuan .commenAnimation {
+  -webkit-animation: shan 0.5s;
+  -o-animation: shan 0.5s;
+  animation: shan 0.5s;
+}
+#outermain1 .shahuan .img {
+  width: 9rem;
+  height: 29.833333333333332rem;
+}
+#outermain1 .shahuan .img1 {
+  width: 4.75rem;
+  height: 1.5416666666666667rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 2.1666666666666665rem;
+  z-index: 100;
+  opacity: 1;
+}
+#outermain1 .shahuan img:nth-child(1) {
+  position: absolute;
+  top: 1.625rem;
+  left: 0.20833333333333334rem;
+  z-index: 1;
+  opacity: 1;
+}
+#outermain1 .shahuan img:nth-child(2) {
+  position: absolute;
+  top: 1.4166666666666667rem;
+  left: 0;
+  z-index: 36;
+}
+#outermain1 .leftshanAnimation {
+  -webkit-animation: leftshan 0.2s 0.2s;
+  -o-animation: leftshan 0.2s 0.2s;
+  animation: leftshan 0.2s 0.2s;
+}
+@-webkit-keyframes leftshan {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+#outermain1 .leftshan {
+  position: absolute;
+  left: 0;
+  top: 5.916666666666667rem;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .leftshan img {
+  width: 12.041666666666666rem;
+  height: 29.208333333333332rem;
+}
+#outermain1 .leftshan .leftshanAnimation {
+  display: block;
+}
+#outermain1 .rightshanAnimation {
+  -webkit-animation: leftshan 0.2s 0.4s;
+  -o-animation: leftshan 0.2s 0.4s;
+  animation: leftshan 0.2s 0.4s;
+}
+@-webkit-keyframes rightshan {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+#outermain1 .rightshan {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .rightshan img {
+  width: 12.833333333333334rem;
+  height: 28.125rem;
+}
+#outermain1 .fubiaotiAnimation {
+  -webkit-animation: fubiaoti 0.1s 0.7s;
+  -o-animation: fubiaoti 0.1s 0.7s;
+  animation: fubiaoti 0.1s 0.7s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes fubiaoti {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#outermain1 .fubiaoti {
+  position: absolute;
+  left: 7.916666666666667rem;
+  top: 20.541666666666668rem;
+  opacity: 0;
+}
+#outermain1 .fubiaoti img {
+  width: 3.125rem;
+  height: 12.833333333333334rem;
+}
+#outermain1 .triangleGroup {
+  position: absolute;
+  bottom: 0px;
+  left: 13.333333333333334rem;
+}
+#outermain1 .triangleGroup .triangleGroup1 {
+  width: 0.8333333333333334rem;
+  height: 2.8333333333333335rem;
+  position: relative;
+}
+#outermain1 .triangleGroup .triangleGroup1 .shenzhenAnimation {
+  -webkit-animation: shenzhen 1s 0.6s;
+  -o-animation: shenzhen 1s 0.6s;
+  animation: shenzhen 1s 0.6s;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-shenzhen {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: -0.041666666666666664rem;
+  top: 0.5416666666666666rem;
+  border-top: 0.8333333333333334rem solid transparent;
+  border-left: 1.6666666666666667rem solid transparent;
+  border-right: 1.25rem solid transparent;
+  border-bottom: 1.1666666666666667rem solid #4eb2c1;
+  -webkit-transform: scale(1.2) rotate(0deg);
+  -moz-transform: scale(1.2) rotate(0deg);
+  -ms-transform: scale(1.2) rotate(0deg);
+  -o-transform: scale(1.2) rotate(0deg);
+  transform: scale(0.2) rotate(0deg);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-shenzhen p {
+  width: 4.166666666666667rem;
+  position: absolute;
+  left: -2.125rem;
+  top: 0.3333333333333333rem;
+  font-size: 0.6666666666666666rem;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bolder;
+}
+#outermain1 .triangleGroup .triangleGroup1 .shanghaiAnimation {
+  transform: rotate(-47deg) scale(0.2);
+  -webkit-animation: shanghai 1s 0.6s;
+  -o-animation: shanghai 1s 0.6s;
+  animation: shanghai 1s 0.6s;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-shanghai {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: -0.041666666666666664rem;
+  top: 0.5416666666666666rem;
+  border-top: 0.8333333333333334rem solid transparent;
+  border-left: 2.2916666666666665rem solid transparent;
+  border-right: 0.5416666666666666rem solid transparent;
+  border-bottom: 1.875rem solid #ff1269;
+  -webkit-transform: rotate(-47deg) scale(0.2);
+  -moz-transform: rotate(-47deg) scale(0.2);
+  -ms-transform: rotate(-47deg) scale(0.2);
+  -o-transform: rotate(-47deg) scale(0.2);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-shanghai p {
+  width: 4.166666666666667rem;
+  position: absolute;
+  left: -2.5833333333333335rem;
+  top: 0.7916666666666666rem;
+  font-size: 0.6666666666666666rem;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bolder;
+}
+#outermain1 .triangleGroup .triangleGroup1 .zhuhaiAnimation {
+  -webkit-animation: zhuhai 1s 0.6s;
+  -o-animation: zhuhai 1s 0.6s;
+  animation: zhuhai 1s 0.6s;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-zhuhai {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: -0.041666666666666664rem;
+  top: 0.5416666666666666rem;
+  border-top: 0.8333333333333334rem solid transparent;
+  border-left: 2.0833333333333335rem solid transparent;
+  border-right: 0.75rem solid transparent;
+  border-bottom: 1.125rem solid #4eb2c1;
+  -webkit-transform: rotate(0deg) scale(0.2);
+  -moz-transform: rotate(0deg) scale(0.2);
+  -ms-transform: rotate(0deg) scale(0.2);
+  -o-transform: rotate(0deg) scale(0.2);
+  transform: rotate(0deg) scale(0.2);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-zhuhai p {
+  width: 4.166666666666667rem;
+  position: absolute;
+  left: -2.375rem;
+  top: 0.3333333333333333rem;
+  font-size: 0.6666666666666666rem;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bolder;
+}
+#outermain1 .triangleGroup .triangleGroup1 .nanjingAnimation {
+  -webkit-animation: nanjing 1s 0.6s;
+  -o-animation: nanjing 1s 0.6s;
+  animation: nanjing 1s 0.6s;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-nanjing {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: -0.041666666666666664rem;
+  top: 0.5416666666666666rem;
+  border-top: 1.3333333333333333rem solid transparent;
+  border-left: 0.125rem solid transparent;
+  border-right: 1.0833333333333333rem solid #4eb2c1;
+  border-bottom: 1.4166666666666667rem solid transparent;
+  -webkit-transform: rotate(207deg) scale(0.2);
+  -moz-transform: rotate(207deg) scale(0.2);
+  -ms-transform: rotate(207deg) scale(0.2);
+  -o-transform: rotate(207deg) scale(0.2);
+  transform: rotate(207deg) scale(0.2);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-nanjing p {
+  width: 4.166666666666667rem;
+  position: absolute;
+  left: -1.375rem;
+  top: -0.5416666666666666rem;
+  -webkit-transform: rotate(-87deg);
+  -moz-transform: rotate(-87deg);
+  -ms-transform: rotate(-87deg);
+  -o-transform: rotate(-87deg);
+  transform: rotate(-87deg);
+  font-size: 0.6666666666666666rem;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bolder;
+}
+#outermain1 .triangleGroup .triangleGroup1 .taiyuanAnimation {
+  -webkit-animation: taiyuan 1s 0.6s;
+  -o-animation: taiyuan 1s 0.6s;
+  animation: taiyuan 1s 0.6s;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-taiyuan {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: -0.041666666666666664rem;
+  top: -0.20833333333333334rem;
+  border-top: 0.8333333333333334rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-right: 2rem solid transparent;
+  border-bottom: 1.5833333333333333rem solid #4eb2c1;
+  -webkit-transform: rotate(12deg) scale(0.2);
+  -moz-transform: rotate(12deg) scale(0.2);
+  -ms-transform: rotate(12deg) scale(0.2);
+  -o-transform: rotate(12deg) scale(0.2);
+  transform: rotate(12deg) scale(0.2);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-taiyuan p {
+  width: 4.166666666666667rem;
+  position: absolute;
+  left: -1.7916666666666667rem;
+  top: 0.625rem;
+  font-size: 0.6666666666666666rem;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bolder;
+}
+#outermain1 .triangleGroup .triangleGroup1 .xianAnimation {
+  -webkit-animation: xian 1s 0.6s;
+  -o-animation: xian 1s 0.6s;
+  animation: xian 1s 0.6s;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-xian {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: -0.041666666666666664rem;
+  top: -0.20833333333333334rem;
+  border-top: 1.6666666666666667rem solid #ff1269;
+  border-left: 1.3333333333333333rem solid transparent;
+  border-right: 1.3333333333333333rem solid transparent;
+  border-bottom: 0.8333333333333334rem solid transparent;
+  -webkit-transform: rotate(-53deg) scale(0.2);
+  -moz-transform: rotate(-53deg) scale(0.2);
+  -ms-transform: rotate(-53deg) scale(0.2);
+  -o-transform: rotate(-53deg) scale(0.2);
+  transform: rotate(-53deg) scale(0.2);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-xian p {
+  width: 4.166666666666667rem;
+  position: absolute;
+  left: -2.0416666666666665rem;
+  top: -1.625rem;
+  font-size: 0.6666666666666666rem;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bolder;
+}
+#outermain1 .triangleGroup .triangleGroup1 .dalianAnimation {
+  -webkit-animation: dalian 1s 0.6s;
+  -o-animation: dalian 1s 0.6s;
+  animation: dalian 1s 0.6s;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-dalian {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -2.125rem;
+  top: -0.20833333333333334rem;
+  opacity: 0;
+  border-top: 1.875rem solid #ff1269;
+  border-left: 0.7083333333333334rem solid transparent;
+  border-right: 0.7083333333333334rem solid transparent;
+  border-bottom: 0.7083333333333334rem solid transparent;
+  -webkit-transform: rotate(-53deg) scale(0.2);
+  -moz-transform: rotate(-53deg) scale(0.2);
+  -ms-transform: rotate(-53deg) scale(0.2);
+  -o-transform: rotate(-53deg) scale(0.2);
+  transform: rotate(-53deg) scale(0.2);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain1 .triangleGroup .triangleGroup1 .triangle-dalian p {
+  width: 4.166666666666667rem;
+  position: absolute;
+  left: -0.625rem;
+  top: -1.625rem;
+  font-size: 0.6666666666666666rem;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bolder;
+}
+#outermain1 .xiangxia {
+  width: 1.7083333333333333rem;
+  position: absolute;
+  left: 12.5rem;
+  bottom: 0.8333333333333334rem;
+  opacity: 0;
+}
+#outermain1 .xiangxia img {
+  width: 1.7083333333333333rem;
+  height: 1.3333333333333333rem;
+}
+#outermain1 .xiangxiaAnimation {
+  -webkit-animation: xiangxia 1.5s 1s linear infinite;
+  -o-animation: xiangxia 1.5s 1s linear infinite;
+  animation: xiangxia 1.5s 1s linear infinite;
+}
+@-webkit-keyframes shan {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes shenzhen {
+  0% {
+    -webkit-transform: scale(0.2) rotate(0deg);
+    -moz-transform: scale(0.2) rotate(0deg);
+    -ms-transform: scale(0.2) rotate(0deg);
+    -o-transform: scale(0.2) rotate(0deg);
+    transform: scale(0.2) rotate(0deg);
+    opacity: 0;
+    left: -0.041666666666666664rem;
+    top: 0.5416666666666666rem;
+  }
+  50% {
+    -webkit-transform: rotate(24deg) scale(0.5);
+    -moz-transform: rotate(24deg) scale(0.5);
+    -ms-transform: rotate(24deg) scale(0.5);
+    -o-transform: rotate(24deg) scale(0.5);
+    transform: rotate(24deg) scale(0.5);
+    opacity: 1;
+    left: -1.75rem;
+    top: -2.0833333333333335rem;
+  }
+  100% {
+    -webkit-transform: rotate(47deg) scale(1.2);
+    -moz-transform: rotate(47deg) scale(1.2);
+    -ms-transform: rotate(47deg) scale(1.2);
+    -o-transform: rotate(47deg) scale(1.2);
+    transform: rotate(47deg) scale(1.2);
+    opacity: 1;
+    left: -3.4583333333333335rem;
+    top: -4.916666666666667rem;
+  }
+}
+@-webkit-keyframes shanghai {
+  0% {
+    -webkit-transform: rotate(-47deg) scale(0.2);
+    -moz-transform: rotate(-47deg) scale(0.2);
+    -ms-transform: rotate(-47deg) scale(0.2);
+    -o-transform: rotate(-47deg) scale(0.2);
+    transform: rotate(-47deg) scale(0.2);
+    opacity: 0;
+    left: -0.041666666666666664rem;
+    top: 0.5416666666666666rem;
+  }
+  50% {
+    -webkit-transform: rotate(-36deg) scale(0.7);
+    -moz-transform: rotate(-36deg) scale(0.7);
+    -ms-transform: rotate(-36deg) scale(0.7);
+    -o-transform: rotate(-36deg) scale(0.7);
+    transform: rotate(-36deg) scale(0.7);
+    opacity: 1;
+    left: 0.4166666666666667rem;
+    top: -1.9583333333333333rem;
+  }
+  100% {
+    -webkit-transform: rotate(-28deg) scale(1.2);
+    -moz-transform: rotate(-28deg) scale(1.2);
+    -ms-transform: rotate(-28deg) scale(1.2);
+    -o-transform: rotate(-28deg) scale(1.2);
+    transform: rotate(-28deg) scale(1.2);
+    opacity: 1;
+    left: 0.9166666666666666rem;
+    top: -4.375rem;
+  }
+}
+@-webkit-keyframes zhuhai {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.2);
+    -moz-transform: rotate(0deg) scale(0.2);
+    -ms-transform: rotate(0deg) scale(0.2);
+    -o-transform: rotate(0deg) scale(0.2);
+    transform: rotate(0deg) scale(0.2);
+    opacity: 0;
+    left: -0.041666666666666664rem;
+    top: 0.5416666666666666rem;
+  }
+  50% {
+    -webkit-transform: rotate(-15deg) scale(0.7);
+    -moz-transform: rotate(-15deg) scale(0.7);
+    -ms-transform: rotate(-15deg) scale(0.7);
+    -o-transform: rotate(-15deg) scale(0.7);
+    transform: rotate(-15deg) scale(0.7);
+    opacity: 1;
+    left: 1.3333333333333333rem;
+    top: -4.666666666666667rem;
+  }
+  100% {
+    -webkit-transform: rotate(-30deg) scale(1.2);
+    -moz-transform: rotate(-30deg) scale(1.2);
+    -ms-transform: rotate(-30deg) scale(1.2);
+    -o-transform: rotate(-30deg) scale(1.2);
+    transform: rotate(-30deg) scale(1.2);
+    opacity: 1;
+    left: 2.625rem;
+    top: -9.916666666666666rem;
+  }
+}
+@-webkit-keyframes nanjing {
+  0% {
+    -webkit-transform: rotate(207deg) scale(0.2);
+    -moz-transform: rotate(207deg) scale(0.2);
+    -ms-transform: rotate(207deg) scale(0.2);
+    -o-transform: rotate(207deg) scale(0.2);
+    transform: rotate(207deg) scale(0.2);
+    opacity: 0;
+    left: -0.041666666666666664rem;
+    top: 0.5416666666666666rem;
+  }
+  50% {
+    -webkit-transform: rotate(207deg) scale(0.7);
+    -moz-transform: rotate(207deg) scale(0.7);
+    -ms-transform: rotate(207deg) scale(0.7);
+    -o-transform: rotate(207deg) scale(0.7);
+    transform: rotate(207deg) scale(0.7);
+    opacity: 1;
+    left: 2.9166666666666665rem;
+    top: -1.5rem;
+  }
+  100% {
+    -webkit-transform: rotate(207deg) scale(1.2);
+    -moz-transform: rotate(207deg) scale(1.2);
+    -ms-transform: rotate(207deg) scale(1.2);
+    -o-transform: rotate(207deg) scale(1.2);
+    transform: rotate(207deg) scale(1.2);
+    opacity: 1;
+    left: 5.833333333333333rem;
+    top: -3.5833333333333335rem;
+  }
+}
+@-webkit-keyframes taiyuan {
+  0% {
+    -webkit-transform: rotate(12deg) scale(0.2);
+    -moz-transform: rotate(12deg) scale(0.2);
+    -ms-transform: rotate(12deg) scale(0.2);
+    -o-transform: rotate(12deg) scale(0.2);
+    transform: rotate(12deg) scale(0.2);
+    opacity: 0;
+    left: -0.041666666666666664rem;
+    top: 0.5416666666666666rem;
+  }
+  50% {
+    -webkit-transform: rotate(12deg) scale(0.7);
+    -moz-transform: rotate(12deg) scale(0.7);
+    -ms-transform: rotate(12deg) scale(0.7);
+    -o-transform: rotate(12deg) scale(0.7);
+    transform: rotate(12deg) scale(0.7);
+    opacity: 1;
+    left: 1.5833333333333333rem;
+    top: -0.75rem;
+  }
+  100% {
+    -webkit-transform: rotate(12deg) scale(1);
+    -moz-transform: rotate(12deg) scale(1);
+    -ms-transform: rotate(12deg) scale(1);
+    -o-transform: rotate(12deg) scale(1);
+    transform: rotate(12deg) scale(1);
+    opacity: 1;
+    left: 3.0833333333333335rem;
+    top: -2.0416666666666665rem;
+  }
+}
+@-webkit-keyframes xian {
+  0% {
+    -webkit-transform: rotate(-53deg) scale(0.2);
+    -moz-transform: rotate(-53deg) scale(0.2);
+    -ms-transform: rotate(-53deg) scale(0.2);
+    -o-transform: rotate(-53deg) scale(0.2);
+    transform: rotate(-53deg) scale(0.2);
+    opacity: 0;
+    left: -0.041666666666666664rem;
+    top: 0.5416666666666666rem;
+  }
+  50% {
+    -webkit-transform: rotate(-53deg) scale(0.7);
+    -moz-transform: rotate(-53deg) scale(0.7);
+    -ms-transform: rotate(-53deg) scale(0.7);
+    -o-transform: rotate(-53deg) scale(0.7);
+    transform: rotate(-53deg) scale(0.7);
+    opacity: 1;
+    left: -2.5rem;
+    top: -0.20833333333333334rem;
+  }
+  100% {
+    -webkit-transform: rotate(-53deg) scale(1);
+    -moz-transform: rotate(-53deg) scale(1);
+    -ms-transform: rotate(-53deg) scale(1);
+    -o-transform: rotate(-53deg) scale(1);
+    transform: rotate(-53deg) scale(1);
+    opacity: 1;
+    left: -5rem;
+    top: -0.9166666666666666rem;
+  }
+}
+@-webkit-keyframes dalian {
+  0% {
+    -webkit-transform: rotate(-53deg) scale(0.2);
+    -moz-transform: rotate(-53deg) scale(0.2);
+    -ms-transform: rotate(-53deg) scale(0.2);
+    -o-transform: rotate(-53deg) scale(0.2);
+    transform: rotate(-53deg) scale(0.2);
+    opacity: 0;
+    left: -0.041666666666666664rem;
+    top: 0.5416666666666666rem;
+  }
+  50% {
+    -webkit-transform: rotate(-53deg) scale(0.7);
+    -moz-transform: rotate(-53deg) scale(0.7);
+    -ms-transform: rotate(-53deg) scale(0.7);
+    -o-transform: rotate(-53deg) scale(0.7);
+    transform: rotate(-53deg) scale(0.7);
+    opacity: 1;
+    left: -4rem;
+    top: -2.0833333333333335rem;
+  }
+  100% {
+    -webkit-transform: rotate(-53deg) scale(1);
+    -moz-transform: rotate(-53deg) scale(1);
+    -ms-transform: rotate(-53deg) scale(1);
+    -o-transform: rotate(-53deg) scale(1);
+    transform: rotate(-53deg) scale(1);
+    opacity: 1;
+    left: -8.041666666666666rem;
+    top: -4.791666666666667rem;
+  }
+}
+@-webkit-keyframes xiangxia {
+  0% {
+    opacity: 0.0;
+    bottom: 0.8333333333333334rem;
+  }
+  20% {
+    opacity: 0.2;
+    bottom: 0.6666666666666666rem;
+  }
+  40% {
+    opacity: 0.4;
+    bottom: 0.5rem;
+  }
+  60% {
+    opacity: 0.6;
+    bottom: 0.3333333333333333rem;
+  }
+  80% {
+    opacity: 0.8;
+    bottom: 0.16666666666666666rem;
+  }
+  100% {
+    opacity: 1.0;
+    bottom: 0px;
+  }
+}
+.outer {
+  position: relative;
+  margin: 0 auto;
+  width: 26.666666666666668rem;
+  height: 42rem;
+}
+.muisc {
+  position: absolute;
+  top: 1.4166666666666667rem;
+  right: 1.25rem;
+  z-index: 1000;
+}
+.muisc img {
+  width: 1.5rem;
+  height: 1.875rem;
+}
+#outermain2 {
+  width: 26.666666666666668rem;
+  height: 42rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background: url("../images/background.jpg") 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#outermain2 #inner {
+  width: 166.66666666666666rem;
+  height: 23.041666666666668rem;
+  margin-top: 2.0833333333333335rem;
+  margin-left: 6.708333333333333rem;
+}
+#outermain2 #inner li {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+  float: left;
+  opacity: 0.5;
+}
+#outermain2 #inner li img {
+  width: 100%;
+  height: 100%;
+}
+#outermain2 .left,
+#outermain2 .right {
+  position: absolute;
+  top: 12.5rem;
+  font-size: 1rem;
+  color: #fff;
+}
+#outermain2 .left {
+  left: 1.6666666666666667rem;
+}
+#outermain2 .right {
+  right: 1.6666666666666667rem;
+}
+#outermain2 .leftAnimation {
+  -webkit-animation: left 1.5s infinite;
+  -o-animation: left 1.5s infinite;
+  animation: left 1.5s infinite;
+}
+#outermain2 .rightAnimation {
+  -webkit-animation: right 1.5s infinite;
+  -o-animation: right 1.5s infinite;
+  animation: right 1.5s infinite;
+}
+@-webkit-keyframes right {
+  0% {
+    right: 1.6666666666666667rem;
+  }
+  10% {
+    right: 1.4583333333333333rem;
+  }
+  20% {
+    right: 1.3333333333333333rem;
+  }
+  25% {
+    right: 1.25rem;
+  }
+  35% {
+    right: 1.0833333333333333rem;
+  }
+  45% {
+    right: 0.9583333333333334rem;
+  }
+  50% {
+    right: 0.8333333333333334rem;
+  }
+  65% {
+    right: 0.6666666666666666rem;
+  }
+  70% {
+    right: 0.5416666666666666rem;
+  }
+  75% {
+    right: 0.4166666666666667rem;
+  }
+  85% {
+    right: 0.25rem;
+  }
+  95% {
+    right: 0.125rem;
+  }
+  100% {
+    right: 0px;
+  }
+}
+@-webkit-keyframes left {
+  0% {
+    left: 1.6666666666666667rem;
+  }
+  10% {
+    left: 1.4583333333333333rem;
+  }
+  20% {
+    left: 1.3333333333333333rem;
+  }
+  25% {
+    left: 1.25rem;
+  }
+  35% {
+    left: 1.0833333333333333rem;
+  }
+  45% {
+    left: 0.9583333333333334rem;
+  }
+  50% {
+    left: 0.8333333333333334rem;
+  }
+  65% {
+    left: 0.6666666666666666rem;
+  }
+  70% {
+    left: 0.5416666666666666rem;
+  }
+  75% {
+    left: 0.4166666666666667rem;
+  }
+  85% {
+    left: 0.25rem;
+  }
+  95% {
+    left: 0.125rem;
+  }
+  100% {
+    left: 0px;
+  }
+}
+#outermain3 {
+  width: 26.666666666666668rem;
+  height: 42rem;
+  margin: 0 auto;
+  background: url("../images/background3.jpg") 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#outermain3 .fontout {
+  width: 6.875rem;
+  margin: 0 auto;
+  padding-top: 12.708333333333334rem;
+}
+#outermain3 .fontout .font {
+  float: left;
+  opacity: 0;
+}
+#outermain3 .fontout .font img {
+  width: 1.375rem;
+  height: 1.25rem;
+}
+#outermain3 .fontout .fontone {
+  -webkit-animation: font 0.2s 0.2s;
+  -o-animation: font 0.2s 0.2s;
+  animation: font 0.2s 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain3 .fontout .fonttwo {
+  -webkit-animation: font 0.2s 0.5s;
+  -o-animation: font 0.2s 0.5s;
+  animation: font 0.2s 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain3 .fontout .fontthree {
+  -webkit-animation: font 0.2s 0.8s;
+  -o-animation: font 0.2s 0.8s;
+  animation: font 0.2s 0.8s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain3 .fontout .fontfour {
+  -webkit-animation: font 0.2s 1.1s;
+  -o-animation: font 0.2s 1.1s;
+  animation: font 0.2s 1.1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain3 .fontout .fontfive {
+  -webkit-animation: font 0.2s 1.4s;
+  -o-animation: font 0.2s 1.4s;
+  animation: font 0.2s 1.4s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain3 .musik {
+  width: 16.125rem;
+  margin: 0 auto;
+  padding-top: 0.7916666666666666rem;
+  opacity: 0;
+}
+#outermain3 .musik img {
+  width: 16.125rem;
+  height: 1.625rem;
+}
+#outermain3 .musikAnimation {
+  -webkit-animation: musik 0.8s 1.5s;
+  -o-animation: musik 0.8s 1.5s;
+  animation: musik 0.8s 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain3 .more {
+  width: 2.0416666666666665rem;
+  height: 10.333333333333334rem;
+  margin: 0 auto;
+  margin-top: 1.7916666666666667rem;
+  border: 0.041666666666666664rem solid #459dab;
+  -webkit-border-radius: 0.125rem;
+  -moz-border-radius: 0.125rem;
+  border-radius: 0.125rem;
+  position: relative;
+  opacity: 0;
+}
+#outermain3 .more img {
+  width: 1rem;
+  height: 8.75rem;
+}
+#outermain3 .more .imgmore1 {
+  position: absolute;
+  left: 0.6666666666666666rem;
+  top: 0.8333333333333334rem;
+  opacity: 1;
+  -webkit-animation: imgmore1 0.5s 1.3s infinite;
+  -o-animation: imgmore1 0.5s 1.3s infinite;
+  animation: imgmore1 0.5s infinite;
+}
+#outermain3 .more .imgmore2 {
+  position: absolute;
+  left: 0.5416666666666666rem;
+  top: 0.7916666666666666rem;
+}
+#outermain3 .moreAnimation {
+  -webkit-animation: boon 0.6s 2.1s;
+  -o-animation: boon 0.6s 2.1s;
+  animation: boon 0.6s 2.1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#outermain3 .boon {
+  width: 14.708333333333334rem;
+  margin: 0 auto;
+  opacity: 0;
+}
+#outermain3 .boon img {
+  width: 14.708333333333334rem;
+  height: 11rem;
+}
+#outermain3 .boonAnimation {
+  -webkit-animation: boon 0.6s 2.1s;
+  -o-animation: boon 0.6s 2.1s;
+  animation: boon 0.6s 2.1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes musik {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(0.1);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes imgmore1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes boon {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes font {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
